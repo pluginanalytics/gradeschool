@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 29 21:26:33 EST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4216 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.deleteUser()'><b>deleteUser</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.dao.UserDaoImplTest.deleteUserByInvalidSsn()'><b>deleteUserByInvalidSsn</b><br>Test class: com.mastergradeschool.auth.dao.UserDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.dao.UserDaoImplTest.deleteUserBySsn()'><b>deleteUserBySsn</b><br>Test class: com.mastergradeschool.auth.dao.UserDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.service.UserServiceImplTest.deleteUserBySsn()'><b>deleteUserBySsn</b><br>Test class: com.mastergradeschool.auth.service.UserServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.editUser()'><b>editUser</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.dao.UserDaoImplTest.findAllUsers()'><b>findAllUsers</b><br>Test class: com.mastergradeschool.auth.dao.UserDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.service.UserServiceImplTest.findAllUsers()'><b>findAllUsers</b><br>Test class: com.mastergradeschool.auth.service.UserServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.dao.UserDaoImplTest.findById()'><b>findById</b><br>Test class: com.mastergradeschool.auth.dao.UserDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.service.UserServiceImplTest.findById()'><b>findById</b><br>Test class: com.mastergradeschool.auth.service.UserServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.dao.UserDaoImplTest.findUserBySsn()'><b>findUserBySsn</b><br>Test class: com.mastergradeschool.auth.dao.UserDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.service.UserServiceImplTest.findUserBySsn()'><b>findUserBySsn</b><br>Test class: com.mastergradeschool.auth.service.UserServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.service.UserServiceImplTest.isUserSsnUnique()'><b>isUserSsnUnique</b><br>Test class: com.mastergradeschool.auth.service.UserServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.listUsers()'><b>listUsers</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.newUser()'><b>newUser</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.dao.UserDaoImplTest.saveUser()'><b>saveUser</b><br>Test class: com.mastergradeschool.auth.dao.UserDaoImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.service.UserServiceImplTest.saveUser()'><b>saveUser</b><br>Test class: com.mastergradeschool.auth.service.UserServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.saveUserWithSuccess()'><b>saveUserWithSuccess</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.saveUserWithValidationError()'><b>saveUserWithValidationError</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.saveUserWithValidationErrorNonUniqueSSN()'><b>saveUserWithValidationErrorNonUniqueSSN</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.service.UserServiceImplTest.updateUser()'><b>updateUser</b><br>Test class: com.mastergradeschool.auth.service.UserServiceImplTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.updateUserWithSuccess()'><b>updateUserWithSuccess</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.updateUserWithValidationError()'><b>updateUserWithValidationError</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+<tr>
+<td title='com.mastergradeschool.auth.controller.AppControllerTest.updateUserWithValidationErrorNonUniqueSSN()'><b>updateUserWithValidationErrorNonUniqueSSN</b><br>Test class: com.mastergradeschool.auth.controller.AppControllerTest</td>
+<td></td>
+<td>0</td>
+<td>com.mastergradeschool.auth.controller.AppControllerTest@587d1d39</td></tr>
+</table><p>
+</body>
+</html>

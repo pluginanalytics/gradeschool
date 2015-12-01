@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="4216" started-at="2015-11-30T02:26:33Z" finished-at="2015-11-30T02:26:38Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4216" started-at="2015-11-30T02:26:33Z" finished-at="2015-11-30T02:26:38Z">
+      <class name="com.mastergradeschool.auth.dao.UserDaoImplTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="3" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2798" started-at="2015-11-29T21:26:34Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="86" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.deleteUserByInvalidSsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="setUp" is-config="true" duration-ms="209" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteUserByInvalidSsn()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="deleteUserByInvalidSsn" duration-ms="122" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserByInvalidSsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="6" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.deleteUserByInvalidSsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.deleteUserBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="setUp" is-config="true" duration-ms="14" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteUserBySsn()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="deleteUserBySsn" duration-ms="4" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserBySsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="6" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.deleteUserBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.findAllUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="setUp" is-config="true" duration-ms="13" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findAllUsers()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="findAllUsers" duration-ms="2" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllUsers -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.findAllUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="setUp" is-config="true" duration-ms="15" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="findById" duration-ms="12" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.findById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.findUserBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="setUp" is-config="true" duration-ms="12" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="findUserBySsn()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="findUserBySsn" duration-ms="16" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findUserBySsn -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.findUserBySsn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="5" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.saveUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="setUp" is-config="true" duration-ms="11" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="saveUser()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="saveUser" duration-ms="29" started-at="2015-11-29T21:26:37Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mastergradeschool.auth.dao.UserDaoImplTest.saveUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.mastergradeschool.auth.dao.UserDaoImplTest@cb51256]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.mastergradeschool.auth.dao.UserDaoImplTest -->
+      <class name="com.mastergradeschool.auth.controller.AppControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="setUp" is-config="true" duration-ms="681" started-at="2015-11-29T21:26:33Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="deleteUser" duration-ms="25" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="editUser" duration-ms="53" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method status="PASS" signature="listUsers()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="listUsers" duration-ms="16" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listUsers -->
+        <test-method status="PASS" signature="newUser()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="newUser" duration-ms="2" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUser -->
+        <test-method status="PASS" signature="saveUserWithSuccess()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="saveUserWithSuccess" duration-ms="2" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveUserWithSuccess -->
+        <test-method status="PASS" signature="saveUserWithValidationError()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="saveUserWithValidationError" duration-ms="0" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveUserWithValidationError -->
+        <test-method status="PASS" signature="saveUserWithValidationErrorNonUniqueSSN()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="saveUserWithValidationErrorNonUniqueSSN" duration-ms="4" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveUserWithValidationErrorNonUniqueSSN -->
+        <test-method status="PASS" signature="updateUserWithSuccess()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="updateUserWithSuccess" duration-ms="2" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserWithSuccess -->
+        <test-method status="PASS" signature="updateUserWithValidationError()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="updateUserWithValidationError" duration-ms="0" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserWithValidationError -->
+        <test-method status="PASS" signature="updateUserWithValidationErrorNonUniqueSSN()[pri:0, instance:com.mastergradeschool.auth.controller.AppControllerTest@587d1d39]" name="updateUserWithValidationErrorNonUniqueSSN" duration-ms="2" started-at="2015-11-29T21:26:34Z" finished-at="2015-11-29T21:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserWithValidationErrorNonUniqueSSN -->
+      </class> <!-- com.mastergradeschool.auth.controller.AppControllerTest -->
+      <class name="com.mastergradeschool.auth.service.UserServiceImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5]" name="setUp" is-config="true" duration-ms="8" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteUserBySsn()[pri:0, instance:com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5]" name="deleteUserBySsn" duration-ms="0" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserBySsn -->
+        <test-method status="PASS" signature="findAllUsers()[pri:0, instance:com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5]" name="findAllUsers" duration-ms="0" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllUsers -->
+        <test-method status="PASS" signature="findById()[pri:0, instance:com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5]" name="findById" duration-ms="1" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findById -->
+        <test-method status="PASS" signature="findUserBySsn()[pri:0, instance:com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5]" name="findUserBySsn" duration-ms="0" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findUserBySsn -->
+        <test-method status="PASS" signature="isUserSsnUnique()[pri:0, instance:com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5]" name="isUserSsnUnique" duration-ms="1" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUserSsnUnique -->
+        <test-method status="PASS" signature="saveUser()[pri:0, instance:com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5]" name="saveUser" duration-ms="1" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveUser -->
+        <test-method status="PASS" signature="updateUser()[pri:0, instance:com.mastergradeschool.auth.service.UserServiceImplTest@25af5db5]" name="updateUser" duration-ms="0" started-at="2015-11-29T21:26:38Z" finished-at="2015-11-29T21:26:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- com.mastergradeschool.auth.service.UserServiceImplTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

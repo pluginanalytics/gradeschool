@@ -1,0 +1,5 @@
+com/mastergradeschool/auth/controller/AppControllerTest.class
+com/mastergradeschool/auth/dao/UserDaoImplTest.class
+com/mastergradeschool/auth/dao/EntityDaoImplTest.class
+com/mastergradeschool/auth/configuration/HibernateTestConfiguration.class
+com/mastergradeschool/auth/service/UserServiceImplTest.class

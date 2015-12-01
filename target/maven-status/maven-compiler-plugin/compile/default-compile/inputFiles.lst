@@ -1,0 +1,11 @@
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/controller/AppController.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/dao/AbstractDao.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/dao/UserDaoImpl.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/configuration/CORSFilter.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/dao/UserDao.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/configuration/AppInitializer.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/configuration/HibernateConfiguration.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/configuration/AppConfig.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/model/User.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/service/UserService.java
+/Users/hbpalme/Documents/gradeSchoolApp/gradeschool/src/main/java/com/mastergradeschool/auth/service/UserServiceImpl.java
